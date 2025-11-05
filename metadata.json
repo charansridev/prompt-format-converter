@@ -1,0 +1,5 @@
+{
+  "name": "Prompt Format Converter",
+  "description": "A tool that uses Google AI to convert natural language text prompts into multiple structured data formats like JSON, TOON, YAML, CSV, and XML.",
+  "requestFramePermissions": []
+}
