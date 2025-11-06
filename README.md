@@ -1,20 +1,109 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Here are two versions of a GitHub description for your "Structured Data Converter" project.
 
-# Run and deploy your AI Studio app
+First is the short, one-line "About" description, followed by a full `README.md` file that you can copy and paste.
 
-This contains everything you need to run your app locally.
+-----
 
-View your app in AI Studio: https://ai.studio/apps/drive/1fu57uv6jRZqkuJT_e_Vmb3LRXD12v1C6
+### 1\. GitHub "About" Description (One-Liner)
 
-## Run Locally
+A tool built in Google AI Studio that converts natural language prompts into JSON, YAML, CSV, XML, and TOON.
 
-**Prerequisites:**  Node.js
+-----
 
+### 2\. Full `README.md` File Content
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+(You can copy, paste, and save this in a file named `README.md` in your GitHub repository.)
+
+````markdown
+ 💬 Natural Language to Structured Data Converter
+
+This project is a powerful "Gem" (tool) built for **Google AI Studio**. It takes a simple, natural language request (like "I need a list of three users") and instantly converts it into **five** different structured data formats: JSON, TOON, YAML, CSV, and XML.
+
+It serves as both a practical utility for developers and a clear example of advanced, rules-based prompt engineering for generative AI.
+
+---
+
+## ✨ Key Features
+
+* **Multi-Format Output:** Generates all five formats from a single prompt.
+* **Natural Language Input:** No complex syntax required. Just ask for the data you want.
+* **Supported Formats:**
+    * **JSON:** (JavaScript Object Notation)
+    * **TOON:** (Token-Oriented Object Notation)
+    * **YAML:** (YAML Ain't Markup Language)
+    * **CSV:** (Comma-Separated Values)
+    * **XML:** (eXtensible Markup Language)
+* **Developer Utility:** Quickly mock up data, create config files, or format data for different APIs.
+
+---
+
+## 🚀 How It Works
+
+The core of this project is a single, detailed prompt used within Google AI Studio. This prompt instructs the AI to act as a "Structured Data Converter" and provides strict rules and examples for each of the five output formats.
+
+### Example Usage
+
+**Input:**
+> "Generate a list of 2 products: a 'Laptop' for $1200 and a 'Mouse' for $45."
+
+**Output:**
+
+#### JSON
+```json
+{
+  "products": [
+    {
+      "name": "Laptop",
+      "price": 1200
+    },
+    {
+      "name": "Mouse",
+      "price": 45
+    }
+  ]
+}
+````
+
+#### TOON
+
+```
+products(name, price)
+(Laptop, 1200)
+(Mouse, 45)
+```
+
+#### YAML
+
+```yaml
+products:
+  - name: Laptop
+    price: 1200
+  - name: Mouse
+    price: 45
+```
+
+#### CSV
+
+```csv
+name,price
+Laptop,1200
+Mouse,45
+```
+
+#### XML
+
+```xml
+<products>
+  <product>
+    <name>Laptop</name>
+    <price>1200</price>
+  </product>
+  <product>
+    <name>Mouse</name>
+    <price>45</price>
+  </product>
+</products>
+```
+
+-----
+
