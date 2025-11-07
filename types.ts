@@ -5,3 +5,8 @@ export interface FormattedOutput {
   language: string;
   code: string;
 }
+
+export interface CustomFormat {
+  name: string;
+  instructions: string;
+}

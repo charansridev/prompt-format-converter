@@ -69,4 +69,7 @@ export const CONTEXT_STYLES = [
   'Technical',
   'Business-like',
   'Objective',
+  'Conversational',
+  'Creative',
+  'Concise',
 ];
